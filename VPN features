@@ -1,0 +1,49 @@
+🔐 VPN Encryption and Privacy Features
+A Virtual Private Network (VPN) enhances online security and privacy by encrypting internet traffic and hiding your real IP address. Below are the key encryption technologies and privacy features that make VPNs effective.
+
+🔒 Encryption Features
+1. AES-256 Encryption
+Most reputable VPNs, including Proton VPN, use AES-256-bit encryption, the industry standard trusted by governments and security agencies.
+It’s virtually unbreakable through brute-force attacks, making your data unreadable to third parties.
+
+2. Encryption Protocols
+VPNs use secure protocols to handle how data is transmitted and encrypted:
+| Protocol        | Description                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| OpenVPN         | Open-source and highly secure; widely used.                                                |
+| WireGuard       | Lightweight, fast, and secure. Increasingly popular for its speed and modern cryptography. |
+| IKEv2/IPSec     | Strong and stable, especially good for mobile connections.                                 |
+Proton VPN supports OpenVPN and WireGuard, offering both high performance and strong security.
+
+🛡️ Privacy Features
+1. No-Logs Policy
+A strict no-logs policy ensures that the VPN provider does not store any information about your browsing history, DNS queries, or connection timestamps.
+Proton VPN is based in Switzerland, where privacy laws are strong, and the provider has been independently audited.
+
+2. Kill Switch
+Automatically blocks internet traffic if the VPN connection drops unexpectedly.
+Prevents your real IP or unencrypted data from leaking during disconnection.
+
+3. DNS Leak Protection
+Ensures all DNS requests (used to look up domain names) are routed through the VPN tunnel, not your ISP.
+This prevents your internet provider from seeing which websites you visit.
+
+4. IPv6 Leak Protection
+Some VPNs block or tunnel IPv6 traffic to prevent accidental IP leaks, since many ISPs and devices use IPv6 alongside IPv4.
+
+5. Split Tunneling (Optional Feature)
+Lets you choose which apps or websites use the VPN, and which go through your regular internet connection.
+Useful for accessing local services while still encrypting sensitive activity.
+
+6. Secure Core / Multi-Hop
+Available in Proton VPN's paid plans: routes your traffic through multiple VPN servers before reaching the internet, adding a second layer of privacy.
+
+| Feature                 | Purpose                                     |
+| ----------------------- | ------------------------------------------- |
+| AES-256 Encryption      | Protects your data with strong encryption   |
+| No-Logs Policy          | Ensures anonymity by not storing user data  |
+| Kill Switch             | Prevents leaks if VPN disconnects           |
+| DNS Leak Protection     | Keeps DNS queries private                   |
+| WireGuard/OpenVPN       | Secure, efficient VPN connection protocols  |
+| Split Tunneling         | Custom control over VPN use per app/site    |
+| Secure Core / Multi-Hop | Extra privacy by routing through 2+ servers |
